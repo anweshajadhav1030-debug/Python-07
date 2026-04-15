@@ -1,0 +1,36 @@
+# to study tuple using in built functions
+# assignment 7
+# 1 cerat tuple and perform basic operations 
+t=(1,2,3,4,5,6)
+m=("height","length","breadth","radius")
+print("tuple 1:",t)
+print("tuple 2:",m)
+print("length of tuple 1:",len(t))
+print("concatenation operation:",t+m)
+print("repetation operation on tuple 2:",m*2)
+if 2 in t :
+    print("2 is present in tuple 1.")
+
+# 2 wap to domastrate lndexing, negative indexing, slicing, iteration 
+b=(9,5,7,3,45)
+print(b)
+print(b[3])     
+print(b[-2:])   
+print(b[1:4])  
+
+# 3 wap to domastrate to tuple are immutable and deletion 
+a=(2,5,2,7,2,8)
+print(a)
+del a [3]
+del a
+
+
+# 4 wap to apply built in function like len(),max(),min(), and tuple () on a given sequence 
+c=(0,9,8,7,6,5,4,3,2,1)
+print ( "tuple :",c)
+i=[5,3,8,5,9,2,8]
+print("list:",i)
+print("maximum in tuple:",max(c))
+print("minimum in tuple:", min(c))
+print("length of tuple:",len(c))
+print("list as tuple:",tuple(i))
